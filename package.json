@@ -4,11 +4,17 @@
   "description": "No description",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-reverse": "^0.3.2",
+    "pug": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "echo":"echo app.js",
+    "echo": "echo app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/ducccao/nodejs/issues"
   },
-  "homepage": "https://github.com/ducccao/nodejs#readme"
+  "homepage": "https://github.com/ducccao/nodejs#readme",
+  "prettier": {}
 }
