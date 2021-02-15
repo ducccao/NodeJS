@@ -1,13 +1,14 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "No description",
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
+    "echo":"echo app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
