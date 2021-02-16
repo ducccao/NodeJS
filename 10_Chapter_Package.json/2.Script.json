@@ -1,0 +1,9 @@
+{
+    "scripts": {
+    "pretest": "scripts/pretest.js",
+    "test": "scripts/test.js",
+    "posttest": "scripts/posttest.js"
+    }
+}
+   
+

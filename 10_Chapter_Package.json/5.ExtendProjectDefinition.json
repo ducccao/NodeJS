@@ -1,0 +1,17 @@
+{
+    "main": "server.js",
+    "repository" : {
+    "type": "git",
+    "url": "git+https://github.com/<accountname>/<repositoryname>.git"
+    },
+    "bugs": {
+    "url": "https://github.com/<accountname>/<repositoryname>/issues"
+    },
+    "homepage": "https://github.com/<accountname>/<repositoryname>#readme",
+    "files": [
+    "server.js", // source files
+    "README.md", // additional files
+    "lib" // folder with all included files
+    ]
+}
+   

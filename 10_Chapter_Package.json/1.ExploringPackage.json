@@ -1,0 +1,53 @@
+{
+    "name": "module-name",
+    "version": "10.3.1",
+    "description": "An example module to illustrate the usage of a package.json",
+    "author": "Your Name <your.name@example.org>",
+    "contributors": [{
+    "name": "Foo Bar",
+    "email": "foo.bar@example.com"
+    }],
+    "bin": {
+    "module-name": "./bin/module-name"
+    },
+    "scripts": {
+    "test": "vows --spec --isolate",
+    "start": "node index.js",
+    "predeploy": "echo About to deploy",
+    "postdeploy": "echo Deployed",
+    "prepublish": "coffee --bare --compile --output lib/foo src/foo/*.coffee"
+    },
+    "main": "lib/foo.js",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repo"
+    },
+    "bugs": {
+    "url": "https://github.com/username/issues"
+
+    },
+    "keywords": [
+    "example"
+    ],
+    "dependencies": {
+    "express": "4.2.x"
+    },
+    "devDependencies": {
+    "assume": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0"
+    },
+    "peerDependencies": {
+    "moment": ">2.0.0"
+    },
+    "preferGlobal": true,
+    "private": true,
+    "publishConfig": {
+    "registry": "https://your-private-hosted-npm.registry.domain.com"
+    },
+    "subdomain": "foobar",
+    "analyze": true,
+    "license": "MIT",
+    "files": [
+    "lib/foo.js"
+    ]
+   }
+   
