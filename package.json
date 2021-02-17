@@ -12,7 +12,9 @@
     "express-reverse": "^0.3.2",
     "pug": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "scripts": {
     "echo": "echo app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
